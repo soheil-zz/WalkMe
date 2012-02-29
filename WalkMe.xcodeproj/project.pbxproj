@@ -21,6 +21,10 @@
 		5BB3052314FE03E700E8B919 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051E14FE03E700E8B919 /* 114.png */; };
 		5BB3052414FE03E700E8B919 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051F14FE03E700E8B919 /* Default.png */; };
 		5BB3052514FE03E700E8B919 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3052014FE03E700E8B919 /* Default@2x.png */; };
+		5BB3052C14FE06EA00E8B919 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3052B14FE06EA00E8B919 /* CaptureSessionManager.m */; };
+		5BB3052E14FE071D00E8B919 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB3052D14FE071D00E8B919 /* AVFoundation.framework */; };
+		5BB3053014FE0A2B00E8B919 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3052F14FE0A2B00E8B919 /* scanbutton.png */; };
+		5BB3053214FE0A7000E8B919 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3053114FE0A7000E8B919 /* overlaygraphic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,11 @@
 		5BB3051E14FE03E700E8B919 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
 		5BB3051F14FE03E700E8B919 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5BB3052014FE03E700E8B919 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5BB3052A14FE06EA00E8B919 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		5BB3052B14FE06EA00E8B919 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		5BB3052D14FE071D00E8B919 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BB3052F14FE0A2B00E8B919 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
+		5BB3053114FE0A7000E8B919 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB3052E14FE071D00E8B919 /* AVFoundation.framework in Frameworks */,
 				5BB304FC14FE02C500E8B919 /* UIKit.framework in Frameworks */,
 				5BB304FE14FE02C500E8B919 /* Foundation.framework in Frameworks */,
 				5BB3050014FE02C500E8B919 /* CoreGraphics.framework in Frameworks */,
@@ -79,6 +89,7 @@
 		5BB304FA14FE02C500E8B919 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BB3052D14FE071D00E8B919 /* AVFoundation.framework */,
 				5BB304FB14FE02C500E8B919 /* UIKit.framework */,
 				5BB304FD14FE02C500E8B919 /* Foundation.framework */,
 				5BB304FF14FE02C500E8B919 /* CoreGraphics.framework */,
@@ -89,7 +100,6 @@
 		5BB3050114FE02C500E8B919 /* WalkMe */ = {
 			isa = PBXGroup;
 			children = (
-				5BB3051B14FE033D00E8B919 /* Assets */,
 				5BB3050A14FE02C500E8B919 /* AppDelegate.h */,
 				5BB3050B14FE02C500E8B919 /* AppDelegate.m */,
 				5BB3050D14FE02C500E8B919 /* ViewController.h */,
@@ -97,6 +107,8 @@
 				5BB3051014FE02C500E8B919 /* ViewController_iPhone.xib */,
 				5BB3051314FE02C500E8B919 /* ViewController_iPad.xib */,
 				5BB3050214FE02C500E8B919 /* Supporting Files */,
+				5BB3052A14FE06EA00E8B919 /* CaptureSessionManager.h */,
+				5BB3052B14FE06EA00E8B919 /* CaptureSessionManager.m */,
 			);
 			path = WalkMe;
 			sourceTree = "<group>";
@@ -104,6 +116,7 @@
 		5BB3050214FE02C500E8B919 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BB3051B14FE033D00E8B919 /* Assets */,
 				5BB3050314FE02C500E8B919 /* WalkMe-Info.plist */,
 				5BB3050414FE02C500E8B919 /* InfoPlist.strings */,
 				5BB3050714FE02C500E8B919 /* main.m */,
@@ -115,6 +128,8 @@
 		5BB3051B14FE033D00E8B919 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				5BB3053114FE0A7000E8B919 /* overlaygraphic.png */,
+				5BB3052F14FE0A2B00E8B919 /* scanbutton.png */,
 				5BB3051C14FE03E700E8B919 /* 57.png */,
 				5BB3051D14FE03E700E8B919 /* 72.png */,
 				5BB3051E14FE03E700E8B919 /* 114.png */,
@@ -182,6 +197,8 @@
 				5BB3052314FE03E700E8B919 /* 114.png in Resources */,
 				5BB3052414FE03E700E8B919 /* Default.png in Resources */,
 				5BB3052514FE03E700E8B919 /* Default@2x.png in Resources */,
+				5BB3053014FE0A2B00E8B919 /* scanbutton.png in Resources */,
+				5BB3053214FE0A7000E8B919 /* overlaygraphic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 				5BB3050814FE02C500E8B919 /* main.m in Sources */,
 				5BB3050C14FE02C500E8B919 /* AppDelegate.m in Sources */,
 				5BB3050F14FE02C500E8B919 /* ViewController.m in Sources */,
+				5BB3052C14FE06EA00E8B919 /* CaptureSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

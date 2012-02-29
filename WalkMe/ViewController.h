@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CaptureSessionManager.h"
 
 @interface ViewController : UIViewController
+
+@property (retain) CaptureSessionManager *captureManager;
 
 @end
