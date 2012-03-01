@@ -11,5 +11,4 @@
 
 - (void)addVideoPreviewLayer;
 - (void)addVideoInput;
-
 @end

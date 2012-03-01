@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2E5AE414FF386300287614 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E5AE314FF386300287614 /* Twitter.framework */; };
 		5BB304FC14FE02C500E8B919 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB304FB14FE02C500E8B919 /* UIKit.framework */; };
 		5BB304FE14FE02C500E8B919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB304FD14FE02C500E8B919 /* Foundation.framework */; };
 		5BB3050014FE02C500E8B919 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB304FF14FE02C500E8B919 /* CoreGraphics.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B2E5AE314FF386300287614 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		5BB304F714FE02C500E8B919 /* WalkMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB304FB14FE02C500E8B919 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BB304FD14FE02C500E8B919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2E5AE414FF386300287614 /* Twitter.framework in Frameworks */,
 				5BB3052E14FE071D00E8B919 /* AVFoundation.framework in Frameworks */,
 				5BB304FC14FE02C500E8B919 /* UIKit.framework in Frameworks */,
 				5BB304FE14FE02C500E8B919 /* Foundation.framework in Frameworks */,
@@ -89,6 +92,7 @@
 		5BB304FA14FE02C500E8B919 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B2E5AE314FF386300287614 /* Twitter.framework */,
 				5BB3052D14FE071D00E8B919 /* AVFoundation.framework */,
 				5BB304FB14FE02C500E8B919 /* UIKit.framework */,
 				5BB304FD14FE02C500E8B919 /* Foundation.framework */,
@@ -334,6 +338,7 @@
 				5BB3051A14FE02C500E8B919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
