@@ -10,10 +10,11 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>114.png</string>
+		<string>57.png</string>
+		<string>72.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>soheil.yasrebi.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>walkme</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
