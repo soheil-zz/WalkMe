@@ -13,6 +13,7 @@
 @interface ViewController : UIViewController// <AVCaptureVideoDataOutputSampleBufferDelegate>
 {
     UITextView *textView;
+    BOOL onOff;
 }
 
 @property (retain) CaptureSessionManager *captureManager;
@@ -20,5 +21,7 @@
 
 //- (UIImage *) imageFromSampleBuffer:(CMSampleBufferRef) sampleBuffer;
 //- (void)setupCaptureSession;
+- (void) turnFlashOn: (BOOL)on;
+- (void) switchFlash;
 
 @end

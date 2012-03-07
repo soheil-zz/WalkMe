@@ -14,7 +14,50 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize torchSession;
 
+
+- (id) init {
+    if ((self = [super init])) {
+        
+        // initialize flashlight
+        // test if this class even exists to ensure flashlight is turned on ONLY for iOS 4 and above
+        Class captureDeviceClass = NSClassFromString(@"AVCaptureDevice");
+        if (captureDeviceClass != nil) {
+            
+            AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+            
+            if ([device hasTorch] && [device hasFlash]){
+                
+                if (device.torchMode == AVCaptureTorchModeOff) {
+                    
+                    NSLog(@"Setting up flashlight for later use...");
+                    
+                    AVCaptureDeviceInput *flashInput = [AVCaptureDeviceInput deviceInputWithDevice:device error: nil];
+                    AVCaptureVideoDataOutput *output = [[AVCaptureVideoDataOutput alloc] init];
+                    
+                    AVCaptureSession *session = [[AVCaptureSession alloc] init];
+                    
+                    [session beginConfiguration];
+                    [device lockForConfiguration:nil];
+                    
+                    [session addInput:flashInput];
+                    [session addOutput:output];
+                    
+                    [device unlockForConfiguration];
+                                        
+                    [session commitConfiguration];
+                    [session startRunning];
+                    
+                    [self setTorchSession:session];
+                }
+                
+            }
+            
+        }
+    } return self;
+}
+    
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

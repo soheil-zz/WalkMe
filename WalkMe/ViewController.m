@@ -112,6 +112,8 @@
 
 - (IBAction) tweet
 {
+    [self turnFlashOn:true];
+    return;
     if ([TWTweetComposeViewController canSendTweet])
     {
         TWTweetComposeViewController *tweetSheet = 
@@ -123,6 +125,29 @@
     }    
 }
 
+- (void) switchFlash
+{
+    [self turnFlashOn:onOff];
+    onOff = !onOff;
+}
+
+- (void) turnFlashOn: (BOOL)on
+{
+    // test if this class even exists to ensure flashlight is turned on ONLY for iOS 4 and above
+    Class captureDeviceClass = NSClassFromString(@"AVCaptureDevice");
+    if (captureDeviceClass != nil) {
+        
+        AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+        
+        [device lockForConfiguration:nil];
+        
+        [device setTorchMode:on ? AVCaptureTorchModeOn : AVCaptureTorchModeOff];
+        [device setFlashMode:on ? AVCaptureFlashModeOn : AVCaptureFlashModeOff];
+        
+        [device unlockForConfiguration];
+        
+    }
+}
 
 /*
 // Create and configure a capture session and start it running
@@ -309,6 +334,11 @@ struct pixel {
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [NSTimer scheduledTimerWithTimeInterval:.05
+                                     target:self 
+                                   selector:@selector(switchFlash) 
+                                   userInfo:nil 
+                                    repeats:YES];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
