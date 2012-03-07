@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 60
+project http://json-framework.googlecode.com/svn/tags/2.2.2
+
+END

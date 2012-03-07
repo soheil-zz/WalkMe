@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/57/trunk/iphone/Tests
+END
+NativeDriverTests-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/57/trunk/iphone/Tests/NativeDriverTests-Prefix.pch
+END
+TestAll-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/57/trunk/iphone/Tests/TestAll-Info.plist
+END

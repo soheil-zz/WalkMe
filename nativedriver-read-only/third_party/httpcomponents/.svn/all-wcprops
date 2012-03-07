@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/59/trunk/third_party/httpcomponents
+END
+httpcore-4.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/59/trunk/third_party/httpcomponents/httpcore-4.0.1.jar
+END
+httpclient-4.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/59/trunk/third_party/httpcomponents/httpclient-4.0.2.jar
+END

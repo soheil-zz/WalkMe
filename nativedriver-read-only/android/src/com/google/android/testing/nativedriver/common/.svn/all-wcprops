@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/40/trunk/android/src/com/google/android/testing/nativedriver/common
+END
+AndroidNativeBy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/android/src/com/google/android/testing/nativedriver/common/AndroidNativeBy.java
+END
+Touch.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/16/trunk/android/src/com/google/android/testing/nativedriver/common/Touch.java
+END
+AndroidNativeDriverCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/40/trunk/android/src/com/google/android/testing/nativedriver/common/AndroidNativeDriverCommand.java
+END
+FindsByText.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/android/src/com/google/android/testing/nativedriver/common/FindsByText.java
+END
+AndroidCapabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/android/src/com/google/android/testing/nativedriver/common/AndroidCapabilities.java
+END
+AndroidKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/40/trunk/android/src/com/google/android/testing/nativedriver/common/AndroidKeys.java
+END
+HasTouchScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/android/src/com/google/android/testing/nativedriver/common/HasTouchScreen.java
+END

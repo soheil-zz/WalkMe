@@ -1,0 +1,9 @@
+K 13
+svn:externals
+V 213
+iphone_webdriver -r13157 http://selenium.googlecode.com/svn/trunk/iphone
+google-toolbox-for-mac http://google-toolbox-for-mac.googlecode.com/svn/trunk/
+OCMock http://svn.mulle-kybernetik.com/OCMock/trunk/Source/
+
+
+END

@@ -1,0 +1,34 @@
+10
+
+dir
+69
+http://nativedriver.googlecode.com/svn/trunk/iphone/ThirdParty
+http://nativedriver.googlecode.com/svn
+
+
+
+2011-08-08T06:53:04.405639Z
+58
+tkaizu@google.com
+has-props
+
+
+svn:externals
+
+
+
+
+
+
+
+
+
+
+9ea60b42-7040-e045-bdf9-16ade6be0113
+
+webdriver-interactions
+dir
+
+TouchSynthesis
+dir
+

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory
+END
+NDSessionRoot.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDSessionRoot.h
+END
+NDSession.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDSession.m
+END
+NDAttribute.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDAttribute.m
+END
+NDTimeouts.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDTimeouts.h
+END
+NDElementStore.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDElementStore.m
+END
+NDSessionRoot.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDSessionRoot.m
+END
+NDTimeouts.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDTimeouts.m
+END
+NDElementDirectory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDElementDirectory.h
+END
+NDElementDirectory.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDElementDirectory.m
+END
+NDAttribute.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDAttribute.h
+END
+NDSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDSession.h
+END
+NDElementStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/57/trunk/iphone/Classes/VirtualDirectory/NDElementStore.h
+END

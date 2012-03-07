@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/21/trunk/android/test/com/google/android/testing/nativedriver
+END
+FindByTextTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21/trunk/android/test/com/google/android/testing/nativedriver/FindByTextTest.java
+END
+TextValueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/android/test/com/google/android/testing/nativedriver/TextValueTest.java
+END
+ListViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/8/trunk/android/test/com/google/android/testing/nativedriver/ListViewTest.java
+END

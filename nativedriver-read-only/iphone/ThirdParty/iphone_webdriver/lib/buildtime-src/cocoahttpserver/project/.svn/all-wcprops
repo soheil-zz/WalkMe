@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/49/trunk
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/3/trunk/main.m
+END
+SSCrypto.m
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/36/trunk/SSCrypto.m
+END
+AsyncSocket.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/40/trunk/AsyncSocket.m
+END
+HTTPAuthenticationRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/47/trunk/HTTPAuthenticationRequest.m
+END
+HTTPResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/27/trunk/HTTPResponse.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/3/trunk/Info.plist
+END
+HTTPConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/49/trunk/HTTPConnection.h
+END
+DDNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/21/trunk/DDNumber.h
+END
+HTTPResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/27/trunk/HTTPResponse.m
+END
+HTTPConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/49/trunk/HTTPConnection.m
+END
+DDRange.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/21/trunk/DDRange.h
+END
+DDNumber.m
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/21/trunk/DDNumber.m
+END
+HTTPServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/41/trunk/HTTPServer.h
+END
+DDRange.m
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/21/trunk/DDRange.m
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/3/trunk/LICENSE.txt
+END
+HTTPServer.m
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/41/trunk/HTTPServer.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/3/trunk/AppDelegate.h
+END
+SimpleHTTPServer_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/trunk/SimpleHTTPServer_Prefix.pch
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/3/trunk/AppDelegate.m
+END
+DDData.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/27/trunk/DDData.h
+END
+AsyncSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/40/trunk/AsyncSocket.h
+END
+DDData.m
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/33/trunk/DDData.m
+END
+SSCrypto.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/33/trunk/SSCrypto.h
+END
+HTTPAuthenticationRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/28/trunk/HTTPAuthenticationRequest.h
+END

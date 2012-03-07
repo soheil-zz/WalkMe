@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation
+END
+NDWebElementTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDWebElementTest.h
+END
+NDToucherTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDToucherTest.h
+END
+NDWebElementTest.mm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDWebElementTest.mm
+END
+NDToucherTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDToucherTest.m
+END
+NDJavaScriptRunnerTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDJavaScriptRunnerTest.h
+END
+NDNativeElementTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDNativeElementTest.h
+END
+NDJavaScriptRunnerTest.mm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDJavaScriptRunnerTest.mm
+END
+NDNativeElementTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/NDNativeElementTest.m
+END

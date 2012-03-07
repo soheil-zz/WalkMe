@@ -1,0 +1,11 @@
+K 13
+svn:externals
+V 63
+project -r 49 http://cocoahttpserver.googlecode.com/svn/trunk/
+
+K 10
+svn:ignore
+V 6
+build
+
+END

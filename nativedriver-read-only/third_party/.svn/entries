@@ -1,0 +1,58 @@
+10
+
+dir
+69
+http://nativedriver.googlecode.com/svn/trunk/third_party
+http://nativedriver.googlecode.com/svn
+
+
+
+2011-08-08T07:03:30.740861Z
+59
+tkaizu@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9ea60b42-7040-e045-bdf9-16ade6be0113
+
+commons-logging
+dir
+
+jetty
+dir
+
+android
+dir
+
+selenium
+dir
+
+guava
+dir
+
+httpcomponents
+dir
+
+jsr305
+dir
+
+json
+dir
+
+jarjar
+dir
+
+servlet-api
+dir
+

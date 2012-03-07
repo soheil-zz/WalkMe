@@ -1,0 +1,46 @@
+10
+
+dir
+69
+http://nativedriver.googlecode.com/svn/trunk/iphone
+http://nativedriver.googlecode.com/svn
+
+
+
+2011-08-08T07:20:57.731187Z
+61
+tkaizu@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9ea60b42-7040-e045-bdf9-16ade6be0113
+
+SampleApp
+dir
+
+Tests
+dir
+
+ThirdParty
+dir
+
+Classes
+dir
+
+Client
+dir
+
+NativeDriver.xcodeproj
+dir
+

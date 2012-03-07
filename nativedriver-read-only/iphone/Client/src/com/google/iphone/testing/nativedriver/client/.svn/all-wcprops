@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client
+END
+FindsByPlaceholder.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client/FindsByPlaceholder.java
+END
+FindsByText.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client/FindsByText.java
+END
+ClassNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client/ClassNames.java
+END
+By.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client/By.java
+END
+IosNativeElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client/IosNativeElement.java
+END
+IosNativeDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/57/trunk/iphone/Client/src/com/google/iphone/testing/nativedriver/client/IosNativeDriver.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/48/trunk/android
+END
+jarjarrules_client
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/44/trunk/android/jarjarrules_client
+END
+resourcestoexclude
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/43/trunk/android/resourcestoexclude
+END
+jarjarrules_server
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/android/jarjarrules_server
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/39/trunk/android/build.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/42/trunk/android/build.xml
+END

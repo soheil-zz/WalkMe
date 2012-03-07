@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions
+END
+HTTPVirtualDirectory.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPVirtualDirectory.h
+END
+HTTPStaticResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPStaticResource.h
+END
+HTTPVirtualDirectory.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPVirtualDirectory.m
+END
+HTTPRedirectResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPRedirectResponse.h
+END
+redirect_and_error.patch
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/redirect_and_error.patch
+END
+HTTPStaticResource.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPStaticResource.m
+END
+HTTPRedirectResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPRedirectResponse.m
+END
+HTTPResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/7806/trunk/iphone/lib/buildtime-src/cocoahttpserver/extensions/HTTPResource.h
+END

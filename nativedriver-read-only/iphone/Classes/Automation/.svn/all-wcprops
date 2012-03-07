@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation
+END
+NDWebElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDWebElement.h
+END
+NDToucher.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDToucher.h
+END
+NDElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDElement.h
+END
+NDWebElement.mm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDWebElement.mm
+END
+NDMainThreadRunner.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDMainThreadRunner.m
+END
+NDElement.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDElement.m
+END
+NDToucher.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDToucher.m
+END
+NDJavaScriptRunner.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDJavaScriptRunner.h
+END
+NDNativeElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDNativeElement.h
+END
+NDJavaScriptRunner.mm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDJavaScriptRunner.mm
+END
+NDNativeElement.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDNativeElement.m
+END
+NDMainThreadRunner.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/57/trunk/iphone/Classes/Automation/NDMainThreadRunner.h
+END

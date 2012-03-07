@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements
+END
+NDNativeSwitchElementTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeSwitchElementTest.m
+END
+NDNativeWebViewElementTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeWebViewElementTest.h
+END
+NDNativeTextFieldElementTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeTextFieldElementTest.h
+END
+NDNativeWebViewElementTest.mm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeWebViewElementTest.mm
+END
+NDNativeTextFieldElementTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeTextFieldElementTest.m
+END
+NDNativeTextViewElementTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeTextViewElementTest.h
+END
+NDNativeSwitchElementTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeSwitchElementTest.h
+END
+NDNativeTextViewElementTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/57/trunk/iphone/Tests/Automation/Elements/NDNativeTextViewElementTest.m
+END
