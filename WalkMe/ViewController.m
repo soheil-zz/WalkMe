@@ -112,15 +112,15 @@
 
 - (IBAction) tweet
 {
-    if ([TWTweetComposeViewController canSendTweet])
-    {
+//    if ([TWTweetComposeViewController canSendTweet])
+//    {
         TWTweetComposeViewController *tweetSheet = 
         [[TWTweetComposeViewController alloc] init];
         [tweetSheet setInitialText:textView.text];
         [tweetSheet addURL:[NSURL URLWithString: @"http://www.jog-a-lot.com/walkme/"]];
         //        [tweetSheet addImage:[UIImage imageNamed:@"Default.png"]];
         [self presentModalViewController:tweetSheet animated:YES];
-    }    
+//    }    
 }
 
 

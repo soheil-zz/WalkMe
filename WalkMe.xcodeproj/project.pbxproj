@@ -26,7 +26,36 @@
 		5BB3052E14FE071D00E8B919 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB3052D14FE071D00E8B919 /* AVFoundation.framework */; };
 		5BB3053014FE0A2B00E8B919 /* scanbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3052F14FE0A2B00E8B919 /* scanbutton.png */; };
 		5BB3053214FE0A7000E8B919 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3053114FE0A7000E8B919 /* overlaygraphic.png */; };
+		5BB6AAB415071ACD00BC2F26 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB6AAB115071ACD00BC2F26 /* CFNetwork.framework */; };
+		5BB6AAB515071ACD00BC2F26 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB6AAB215071ACD00BC2F26 /* libstdc++.dylib */; };
+		5BB6AABB15071C7100BC2F26 /* libNativeDriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB6AA8D150718B300BC2F26 /* libNativeDriver.a */; };
+		5BB6AABF15071C7F00BC2F26 /* libNativeDriver.a in Resources */ = {isa = PBXBuildFile; fileRef = 5BB6AABE15071C7F00BC2F26 /* libNativeDriver.a */; };
+		5BB6AAC315071D5E00BC2F26 /* libCocoaHTTPServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB6AAC215071D5E00BC2F26 /* libCocoaHTTPServer.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB6AA8C150718B300BC2F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB6AA7C150718B200BC2F26 /* NativeDriver.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EFC121BE1378D359009E3F71;
+			remoteInfo = NativeDriver;
+		};
+		5BB6AA8E150718B300BC2F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB6AA7C150718B200BC2F26 /* NativeDriver.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EFE6958D1386534D0057D1E5;
+			remoteInfo = NativeDriverTests;
+		};
+		5BB6AAC415071D9600BC2F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB6AA7C150718B200BC2F26 /* NativeDriver.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EFC121BD1378D359009E3F71;
+			remoteInfo = NativeDriver;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5B2E5AE314FF386300287614 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
@@ -54,6 +83,11 @@
 		5BB3052D14FE071D00E8B919 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5BB3052F14FE0A2B00E8B919 /* scanbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanbutton.png; sourceTree = "<group>"; };
 		5BB3053114FE0A7000E8B919 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		5BB6AA7C150718B200BC2F26 /* NativeDriver.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NativeDriver.xcodeproj; path = "nativedriver-read-only/iphone/NativeDriver.xcodeproj"; sourceTree = "<group>"; };
+		5BB6AAB115071ACD00BC2F26 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5BB6AAB215071ACD00BC2F26 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		5BB6AABE15071C7F00BC2F26 /* libNativeDriver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNativeDriver.a; path = "../../Library/Developer/Xcode/DerivedData/WalkMe-gckfclgsprryflfpdorknopcctex/Build/Products/Debug-iphoneos/libNativeDriver.a"; sourceTree = "<group>"; };
+		5BB6AAC215071D5E00BC2F26 /* libCocoaHTTPServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaHTTPServer.a; path = "../../Library/Developer/Xcode/DerivedData/WalkMe-gckfclgsprryflfpdorknopcctex/Build/Products/Debug-iphoneos/libCocoaHTTPServer.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB6AAC315071D5E00BC2F26 /* libCocoaHTTPServer.a in Frameworks */,
+				5BB6AABB15071C7100BC2F26 /* libNativeDriver.a in Frameworks */,
+				5BB6AAB415071ACD00BC2F26 /* CFNetwork.framework in Frameworks */,
+				5BB6AAB515071ACD00BC2F26 /* libstdc++.dylib in Frameworks */,
 				5B2E5AE414FF386300287614 /* Twitter.framework in Frameworks */,
 				5BB3052E14FE071D00E8B919 /* AVFoundation.framework in Frameworks */,
 				5BB304FC14FE02C500E8B919 /* UIKit.framework in Frameworks */,
@@ -75,6 +113,7 @@
 		5BB304EC14FE02C500E8B919 = {
 			isa = PBXGroup;
 			children = (
+				5BB6AA7C150718B200BC2F26 /* NativeDriver.xcodeproj */,
 				5BB3050114FE02C500E8B919 /* WalkMe */,
 				5BB304FA14FE02C500E8B919 /* Frameworks */,
 				5BB304F814FE02C500E8B919 /* Products */,
@@ -92,6 +131,10 @@
 		5BB304FA14FE02C500E8B919 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BB6AAC215071D5E00BC2F26 /* libCocoaHTTPServer.a */,
+				5BB6AABE15071C7F00BC2F26 /* libNativeDriver.a */,
+				5BB6AAB215071ACD00BC2F26 /* libstdc++.dylib */,
+				5BB6AAB115071ACD00BC2F26 /* CFNetwork.framework */,
 				5B2E5AE314FF386300287614 /* Twitter.framework */,
 				5BB3052D14FE071D00E8B919 /* AVFoundation.framework */,
 				5BB304FB14FE02C500E8B919 /* UIKit.framework */,
@@ -143,6 +186,15 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
+		5BB6AA7D150718B200BC2F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB6AA8D150718B300BC2F26 /* libNativeDriver.a */,
+				5BB6AA8F150718B300BC2F26 /* NativeDriverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +209,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5BB6AAC515071D9600BC2F26 /* PBXTargetDependency */,
 			);
 			name = WalkMe;
 			productName = WalkMe;
@@ -181,12 +234,35 @@
 			mainGroup = 5BB304EC14FE02C500E8B919;
 			productRefGroup = 5BB304F814FE02C500E8B919 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5BB6AA7D150718B200BC2F26 /* Products */;
+					ProjectRef = 5BB6AA7C150718B200BC2F26 /* NativeDriver.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5BB304F614FE02C500E8B919 /* WalkMe */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5BB6AA8D150718B300BC2F26 /* libNativeDriver.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNativeDriver.a;
+			remoteRef = 5BB6AA8C150718B300BC2F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5BB6AA8F150718B300BC2F26 /* NativeDriverTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NativeDriverTests.octest;
+			remoteRef = 5BB6AA8E150718B300BC2F26 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5BB304F514FE02C500E8B919 /* Resources */ = {
@@ -203,6 +279,7 @@
 				5BB3052514FE03E700E8B919 /* Default@2x.png in Resources */,
 				5BB3053014FE0A2B00E8B919 /* scanbutton.png in Resources */,
 				5BB3053214FE0A7000E8B919 /* overlaygraphic.png in Resources */,
+				5BB6AABF15071C7F00BC2F26 /* libNativeDriver.a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +298,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB6AAC515071D9600BC2F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NativeDriver;
+			targetProxy = 5BB6AAC415071D9600BC2F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BB3050414FE02C500E8B919 /* InfoPlist.strings */ = {
@@ -302,7 +387,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WalkMe/WalkMe-Prefix.pch";
+				HEADER_SEARCH_PATHS = "nativedriver-read-only/iphone/Classes/**";
 				INFOPLIST_FILE = "WalkMe/WalkMe-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/WalkMe-gckfclgsprryflfpdorknopcctex/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,7 +407,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WalkMe/WalkMe-Prefix.pch";
+				HEADER_SEARCH_PATHS = "nativedriver-read-only/iphone/Classes/**";
 				INFOPLIST_FILE = "WalkMe/WalkMe-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/WalkMe-gckfclgsprryflfpdorknopcctex/Build/Products/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -33,6 +33,11 @@ public class NativeDriverTest extends TestCase{
     WebDriver driver = new IosNativeDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
+    // Click the Tweet button
+    assertNotNull(By.text("Tweet"));
+    driver.findElement(By.text("Tweet")).click();
+
+    /*
     // Type user name
     WebElement userName = driver.findElement(By.placeholder("User Name"));
     userName.clear();
@@ -57,5 +62,6 @@ public class NativeDriverTest extends TestCase{
     driver.findElement(By.partialLinkText("GUI automation")).click();
     // Verify the page
     assertEquals("nativedriver", driver.findElement(By.id("pname")).getText());
+    */
   }
 }

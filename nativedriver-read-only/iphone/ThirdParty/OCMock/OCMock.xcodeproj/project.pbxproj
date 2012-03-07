@@ -906,7 +906,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OCMock;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers/OCMock;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -927,7 +927,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OCMock;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers/OCMock;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
