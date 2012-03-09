@@ -16,7 +16,6 @@
 		5BB3050C14FE02C500E8B919 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3050B14FE02C500E8B919 /* AppDelegate.m */; };
 		5BB3050F14FE02C500E8B919 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3050E14FE02C500E8B919 /* ViewController.m */; };
 		5BB3051214FE02C500E8B919 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051014FE02C500E8B919 /* ViewController_iPhone.xib */; };
-		5BB3051514FE02C500E8B919 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051314FE02C500E8B919 /* ViewController_iPad.xib */; };
 		5BB3052114FE03E700E8B919 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051C14FE03E700E8B919 /* 57.png */; };
 		5BB3052214FE03E700E8B919 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051D14FE03E700E8B919 /* 72.png */; };
 		5BB3052314FE03E700E8B919 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3051E14FE03E700E8B919 /* 114.png */; };
@@ -43,7 +42,6 @@
 		5BB3050D14FE02C500E8B919 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5BB3050E14FE02C500E8B919 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5BB3051114FE02C500E8B919 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		5BB3051414FE02C500E8B919 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		5BB3051C14FE03E700E8B919 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		5BB3051D14FE03E700E8B919 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
 		5BB3051E14FE03E700E8B919 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				5BB3050D14FE02C500E8B919 /* ViewController.h */,
 				5BB3050E14FE02C500E8B919 /* ViewController.m */,
 				5BB3051014FE02C500E8B919 /* ViewController_iPhone.xib */,
-				5BB3051314FE02C500E8B919 /* ViewController_iPad.xib */,
 				5BB3050214FE02C500E8B919 /* Supporting Files */,
 				5BB3052A14FE06EA00E8B919 /* CaptureSessionManager.h */,
 				5BB3052B14FE06EA00E8B919 /* CaptureSessionManager.m */,
@@ -195,7 +192,6 @@
 			files = (
 				5BB3050614FE02C500E8B919 /* InfoPlist.strings in Resources */,
 				5BB3051214FE02C500E8B919 /* ViewController_iPhone.xib in Resources */,
-				5BB3051514FE02C500E8B919 /* ViewController_iPad.xib in Resources */,
 				5BB3052114FE03E700E8B919 /* 57.png in Resources */,
 				5BB3052214FE03E700E8B919 /* 72.png in Resources */,
 				5BB3052314FE03E700E8B919 /* 114.png in Resources */,
@@ -237,14 +233,6 @@
 				5BB3051114FE02C500E8B919 /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		5BB3051314FE02C500E8B919 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BB3051414FE02C500E8B919 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,6 +292,7 @@
 				GCC_PREFIX_HEADER = "WalkMe/WalkMe-Prefix.pch";
 				INFOPLIST_FILE = "WalkMe/WalkMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -315,6 +304,7 @@
 				GCC_PREFIX_HEADER = "WalkMe/WalkMe-Prefix.pch";
 				INFOPLIST_FILE = "WalkMe/WalkMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
